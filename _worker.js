@@ -10,7 +10,7 @@ import { connect } from 'cloudflare:sockets';
 let userID = '7ed3c906-ef06-45ca-8025-63d95161e7f1';
 
 // https://www.nslookup.io/domains/bpb.yousef.isegaro.com/dns-records/
-const proxyIPs= ['www.4chan.org'];
+const proxyIPs= ['www.4chan.org', 'bpb.yousef.isegaro.com'];
 
 const defaultHttpPorts = ['80', '8080', '2052', '2082', '2086', '2095', '8880'];
 const defaultHttpsPorts = ['443', '8443', '2053', '2083', '2087', '2096'];
